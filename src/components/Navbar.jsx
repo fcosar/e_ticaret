@@ -28,7 +28,7 @@ const Navbar = () => {
    }
   return (
     <div className='flex items-center justify-between px-5 h-28'>
-      <div className='text-3xl font-bold tracking-wider'>LOGO</div>
+      <div className='text-3xl font-bold tracking-wider bg-red-600 text-white rounded-lg p-3'>E-Ticaret</div>
       <div className='flex items-center space-x-4'>
         <input value={search} onKeyPress={searchPost} onChange={e => setSearch(e.target.value)} className='border p-2 outline-none rounded-lg' type="text" placeholder='search'/>
          <div onClick={()=>setColor(!color)}>
